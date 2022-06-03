@@ -11,11 +11,13 @@ body {
 }
 
 header {
-    padding: 20px 35px;
+    padding: 0px 35px;
     background-color: #7e9a9a	;
     padding-top: 5px;
     padding-right: 15px;
     justify-content: space-between;
+    position: sticky;
+    z-index: 1;
 }
 
 header h1 {
@@ -33,7 +35,7 @@ header a {
 
 header nav {
     float: right;
-    margin: -35px 0;
+    margin: -45px 0;
 }
 
 header nav ul li {
@@ -48,19 +50,17 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url("../images/hero-bg.jpg");
-    background-size: cover;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    background-position: 80%;
+    background-position: 00%;
 }
 
 .hero-cta {
     width: 35%;
-    text-align: left;
+    text-align: center;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
@@ -76,7 +76,7 @@ header nav ul li a {
 
 footer {
     padding: 20px 35px;
-    background-color: #7e9a9a	;
+    background-color: #7e9a9a;
     color:rgb(255, 255, 255);; 
     padding-top: 12px;
     padding-right: 15px;
@@ -85,4 +85,33 @@ footer {
     bottom: 0;
     width: 100%;
     height: 60px;
+}
+
+.section-title {
+  font-size: 40px;
+  display: inline-flexbox;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #7e9a9a;
+}
+
+.contact, .projects, .me {
+    text-align: center;
+}
+
+.more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+
+.more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+    font-size: 40px;
+}
+
+.more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
 }

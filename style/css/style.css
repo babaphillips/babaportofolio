@@ -112,6 +112,10 @@ footer {
 }
 
 .more-about p {
-    line-height: var(--line-height);
-    padding: 0.4rem;
+    line-height: 1;
+    padding: 0.5rem;
+}
+
+.address {
+    float: center;
 }

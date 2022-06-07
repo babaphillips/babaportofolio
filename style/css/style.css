@@ -95,10 +95,12 @@ footer {
 .section-title {
   font-size: 40px;
   padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  margin-bottom: 35px;
   color: #E5E8E8;
   text-align: center;
+  border-bottom: 3px solid;
+  padding-bottom: 20px;
+  width: 75%;
+  margin: 0 auto 35px auto;
 }
 
 img {
@@ -136,13 +138,17 @@ img {
     justify-content: space-around;
 }
 
+.flex-container {
+    display: flex;
+}
+
 .project {
     margin: 20px;
     flex: 1;
 }
 
 .project img {
-    width: 10%;
+    width: 40%;
 }
 
 .project-style {
@@ -156,8 +162,7 @@ img {
 
 .contact {
     text-align: center;
-    padding: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
-
-
 

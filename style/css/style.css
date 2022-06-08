@@ -37,7 +37,6 @@ header h1 {
 header a {
     color:#E5E8E8;
     text-decoration: none;
-    
 }
 
 header nav {
@@ -60,11 +59,11 @@ header nav ul li a {
     background-image: url(../images/pexels-pixabay-270360.jpg);
     background-size: cover;
     display: flex;
-    justify-content: left;
+    justify-content: right;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
-    background-position: 50%;
+    background-position: 80%;
 }
 
 .hero-cta {
@@ -83,63 +82,45 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-footer {
-    padding: 20px 35px;
-    background-color: #4E545C;
-    color:#E5E8E8; 
-    text-align: center;
-    width: 100%;
-    height: 60px;
-}
-
 .section-title {
   font-size: 40px;
-  padding: 0 100px 20px 100px;
   color: #E5E8E8;
   text-align: center;
   border-bottom: 3px solid;
-  padding-bottom: 20px;
-  width: 75%;
-  margin: 0 auto 35px auto;
+  padding-bottom: -30px;
+  width: 35%;
+  margin: 35px auto 35px auto;
 }
 
-img {
+#me {
     border-radius: 50%;
     width: 8%;
     height: 5%;
-    padding: 5px;
-  }
+    float: left;
+    padding: 10px;
+}
 
 .about {
-    background-color: var(--bg-color);
-    padding: 1rem 6rem;
+    padding: 30px 100px 30px 100px;
 }
 
 .about h2 {
     margin-bottom: var(--bottom-margin);
-    text-align: center;
-    font-size: 40px;
 }
 
 .about p {
-    line-height: 1;
-    padding: 0.5rem;
+    line-height: 1.5;
+    padding: 30px
 }
 
 .projects {
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
+
 
 .projectsinfo {
     width: 100%;
     margin: 0 auto;
-    justify-content: space-around;
-}
-
-.flex-container {
-    display: flex;
 }
 
 .project {
@@ -158,11 +139,26 @@ img {
 
 .project-name h3 {
     font-size: 28px;
+    
+}
+
+#projectimage {
+    width: 15%;
+    height: 15%;
 }
 
 .contact {
     text-align: center;
     padding-bottom: 30px;
     padding-top: 30px;
+}
+
+footer {
+    padding: 20px 35px;
+    background-color: #4E545C;
+    color:#E5E8E8; 
+    text-align: center;
+    width: 100%;
+    height: 60px;
 }
 

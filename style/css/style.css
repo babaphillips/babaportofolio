@@ -168,12 +168,12 @@ footer {
   header nav {
     margin-top: 0px;
     width: 100%;
-    padding-left: 200px;
     justify-content: center;
   }
 
   header nav a {
-    font-size: 20px;
+    font-size: 30px;
+    margin-left: 55px;
   }
 
   footer h2,
@@ -226,12 +226,13 @@ footer {
   header h1 {
     width: 25%;
     text-align: center;
+    font-size: 20px;
   }
 
   header nav {
     margin-top: 10px;
-    margin-left: -150px;
-    width: 1000%;
+    margin-left: -90px;
+    width: 90%;
     justify-content: center;
   }
 

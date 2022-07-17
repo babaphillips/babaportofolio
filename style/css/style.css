@@ -128,6 +128,9 @@ header nav a {
 #projectimage1 {
   width: 75%;
   height: 75%;
+  display: flex;
+  margin-left: 175px;
+  align-items: center;
 }
 
 #projectimage2 {
@@ -151,6 +154,10 @@ footer {
   height: 60px;
   text-align: center;
   padding: 10px;
+}
+
+#link1 {
+  text-align: center;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
